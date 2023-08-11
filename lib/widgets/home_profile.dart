@@ -32,7 +32,7 @@ class HomeProfile extends StatelessWidget {
               Row(
                 children: [
                   const Icon(Icons.location_on, size: 27),
-                  Text('${data!.country}, Nigeria', style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w500, color: Color(0xFF544C4C))),
+                  Text('${data.country}, Nigeria', style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w500, color: Color(0xFF544C4C))),
                 ],
               ),
               const SizedBox(height: 26),
